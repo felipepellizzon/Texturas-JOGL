@@ -172,22 +172,22 @@ public class Renderer extends KeyAdapter implements GLEventListener  {
    public void keyPressed(KeyEvent e) {
 		
 		switch(e.getKeyCode()){
-		case KeyEvent.VK_PAGE_UP:
+		case KeyEvent.VK_NUMPAD3:
 			eixox = eixox + 1;
 			break;
-		case KeyEvent.VK_PAGE_DOWN:
+		case KeyEvent.VK_NUMPAD7:
 			eixox = eixox - 1;
 			break;
-		case KeyEvent.VK_UP:
+		case KeyEvent.VK_NUMPAD8:
 			eixoz = eixoz -1;
 			break;
-		case KeyEvent.VK_DOWN:
+		case KeyEvent.VK_NUMPAD2:
 			eixoz = eixoz + 1;
 			break;
-		case KeyEvent.VK_LEFT:
+		case KeyEvent.VK_NUMPAD4:
 			eixoy = eixoy + 1;
 			break;
-		case KeyEvent.VK_RIGHT:
+		case KeyEvent.VK_NUMPAD6:
 			eixoy = eixoy -1 ;
 			break;
                     
