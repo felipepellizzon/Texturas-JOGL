@@ -179,17 +179,18 @@ public class Renderer extends KeyAdapter implements GLEventListener  {
 			eixox = eixox - 1;
 			break;
 		case KeyEvent.VK_UP:
-			eixoy = eixoy -1;
+			eixoz = eixoz -1;
 			break;
 		case KeyEvent.VK_DOWN:
-			eixoy = eixoy + 1;
-			break;
-		case KeyEvent.VK_LEFT:
 			eixoz = eixoz + 1;
 			break;
-		case KeyEvent.VK_RIGHT:
-			eixoz = eixoz -1 ;
+		case KeyEvent.VK_LEFT:
+			eixoy = eixoy + 1;
 			break;
+		case KeyEvent.VK_RIGHT:
+			eixoy = eixoy -1 ;
+			break;
+                    
 
 		}
                 
