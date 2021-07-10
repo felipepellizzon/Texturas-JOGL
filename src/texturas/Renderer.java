@@ -117,8 +117,8 @@ public class Renderer extends KeyAdapter implements GLEventListener  {
       gl.glEnable(GL2.GL_TEXTURE_2D);
       try{
 		
-         File im = new File("src\\texturas\\textura.jpg ");
-         Texture t = TextureIO.newTexture(im, true);
+         File imagem = new File("src\\texturas\\textura.jpg ");
+         Texture t = TextureIO.newTexture(imagem, true);
          textura = t.getTextureObject(gl);
           
       }catch(IOException e){
